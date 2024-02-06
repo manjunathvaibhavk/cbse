@@ -1,0 +1,139 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{siunitx}
+\usepackage{setspace}
+\usepackage{gensymb}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{amssymb}
+\usepackage{relsize}
+\usepackage[cmex10]{amsmath}
+\usepackage{mathtools}
+\usepackage{commath}
+\usepackage{amsthm}
+\usepackage{txfonts}
+\usepackage{wasysym}
+\usepackage{mathrsfs}
+\usepackage{stfloats}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{cases}
+\usepackage{subfig}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{tfrupee}
+
+
+\lstset{
+  frame=single,
+  breaklines=true
+}
+
+\title{\textbf{MATHEMATICS}}
+\author{Manjunath Kolavennu}
+\newcommand{\mydet}[1]{\left| #1 \right|}
+\newcommand{\brak}[1]{\left( #1 \right)}
+\newcommand{\mydat}[4]{\begin{bmatrix} #1 & #2 \\ #3 & #4 \end{bmatrix}}
+\newcommand{\mydit}[9]{\begin{vmatrix} #1 & #2 & #3 \\ #4 & #5 & #6 \\ #7 & #8 & #9 \end{vmatrix}}
+\newcommand{\mybit}[9]{\begin{bmatrix} #1 & #2 & #3 \\ #4 & #5 & #6 \\ #7 & #8 & #9 \end{bmatrix}}
+\newcommand{\cbrak}[1]{\left\{#1\right\}}
+\newcommand{\sbrak}[1]{\left[#1\right]}
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+\section*{SECTION-A}
+\item If $A$ is a square matrix satisfying $A'A = I$, write the value of $\mydet{x}$.
+\item If $y=x\mydet{x}$,find $\dfrac{dy}{dx}$ for $x<0$.
+\item  Find the order and degree (if defined) of the differential equation 
+ \begin{align*}
+ \dfrac{d^2y}{dx^2}+x\brak{\dfrac{dy}{dx}}^2=2x^2\log\brak{\dfrac{d^2y}{dx^2}}
+ \end{align*}.
+\item Find the direction cosines of a line which makes equal angles with the coordinate axes.
+\section*{SECTION-B}
+\item A line passes through the point with position vector $2\hat{i}-\hat{j}+4\hat{k}$ and is in the direction of the vector $\hat{i}+\hat{j}-2\hat{k}$. Find the equation of the line in cartesian form.
+\item Examine whether the operation $*$ defined on ${R}$, the set of all real numbers, by $a * b = \sqrt{a^2+b^2}$ is a binary operation or not, and if it is a binary operation, find whether it is associative or not.
+\item ${A}= \mydat{4}{2}{-1}{1}$, Show that $({A} - 2{I})({A} - 3{I}) = 0$.
+\item Find:\begin{align*}\int\sqrt{3-2x-x^2}dx\end{align*}
+\item Find: \begin{align*}\int{\frac{\sin^3{x}+\cos^3{x}}{\sin^2{x}\cos^2{x}}}dx\end{align*}
+\item Find: \begin{align*}\int{\frac{x-3}{\brak{x-1}^3}}e^x 
+dx\end{align*}
+\item Find the differential equation of the family of curves \(y = Ae^{2x} + Be^{-2x}\), where \(A\) and \(B\) are arbitrary constants.
+\item If ${\overrightarrow{\mydet{a}}}$ = $2, {\overrightarrow{\mydet{b}}}$ = $7$ and $\overrightarrow{a}\times\overrightarrow{b}$ = $3\hat{i}+2\hat{j}+6\hat{k}$, find the angle between $\overrightarrow{a}$ and $\overrightarrow{b}$.
+\item Find the volume of a cuboid whose edges are given by $-3\hat{i}+7\hat{j}+5\hat{k}$,$-5\hat{i}+7\hat{j}-3\hat{k}$ and $7\hat{i}-5\hat{j}-3\hat{k}$.
+\item If $P(not A) =0.7$, $P(B)=0.7$ and $P(B\mid A)=0.5$, then find $P(A\mid B)$.
+\item A coin is tossed $5$ times. What is the probability of getting 
+\begin{enumerate}[label=(\roman*)]
+    \item $3$ heads
+    \item at most $3$ heads
+\end{enumerate}
+\item Find the probability distribution of $X$, the number of heads in a simultaneous toss of two coins.
+\section*{SECTION-C}
+\item Check whether the relation $R$ defined on the set $A=\cbrak{1,2,3,4,5,6}$ as $R =\cbrak {(a, b) : b = a + 1}$ is reflexive, symmetric or transitive.
+\item Let $f$ : $N\rightarrow Y $ be a function defined as $f\brak{x}= 4x + 3$, where $Y=\cbrak{y\in N:y=4x+3, \text{ for some } x\in N}$. Show that $f$ is invertible. Find its inverse.
+\item Find the value of $\sin\brak{\cos^{-1}{\frac{4}{5}}+{\tan^{-1}{\frac{2}{3}}}}$.
+\item Using properties of determinants, show that 
+\begin{align*} 
+\mydit{3a}{-a+b}{-a+c}{-b+a}{3b}{-b+c}{-c+a}{-c+b}{3c} = 3\brak{a+b+c}\brak{ab+bc+ca}
+\end{align*}
+\item If $x\sqrt{1+y}$+ $y\sqrt{1+x}$=0 and $x\neq y$, prove that $\dfrac{dy}{dx} = -\frac{1}{\brak{x+1}^2}$.
+\item If $\brak{\cos x}^y = \brak{\sin y }^x$, find $\dfrac{dy}{dx}$.
+\item If $\brak{x-a}^2+\brak{y-b}^2={c}^2$, for some $c>0$, prove that
+$\frac{\sbrak{1+\brak{\dfrac{dy}{dx}}^2}^\frac{3}{2}}{\dfrac{d^2y}{dx^2}}$ is a constant independent of $a$ and $b$.
+\item Find the equation of the normal to the curve ${x}^2 = 4y$ which passes through the point $\brak{-1,4}$.
+\item Find: \begin{align*}\int{\frac{x^2+x+1}{\brak{x+2}\brak{x^2+1}}}dx\end{align*}
+\item prove that 
+\begin{align*}
+    \int_{0}^{a} f\brak{x}dx = \int_{0}^{a} f\brak{a-x}dx
+\end{align*}
+and hence evaluate 
+\begin{align*}
+\int_{0}^{\frac{\pi}{2}}\frac{x}{{\sin x}+{\cos x}}dx
+\end{align*}
+\item Solve the differential equation: 
+\begin{align*}
+{x}\dfrac{dy}{dx}= {y}-{x}\tan\brak{\frac{y}{x}}
+\end{align*}
+\item Solve the differential equation : 
+\begin{align*}
+\dfrac{dy}{dx}= -\sbrak{\frac{x+y\cos x}{1+\sin x}}
+\end{align*}
+\item The scalar product of the vector $\overrightarrow{a} = \hat{i}+\hat{j}+\hat{k}$ with a unit vector along the sum of the vectors $\overrightarrow{b} = 2\hat{i}+4\hat{j}-5\hat{k}$ and $\overrightarrow{c} = \lambda\hat{i}+2\hat{j}+3\hat{k}$ is equal to $1$. Find the value of $\lambda$ and hence find the unit vector along $\overrightarrow{b}+\overrightarrow{c}$.
+\item If the lines $\frac{x-1}{-3}=\frac{y-2}{2\lambda}=\frac{z-3}{2}$ and $\frac{x-1}{3\lambda}=\frac{y-1}{2}=\frac{z-6}{-5}$ are perpendicular, find the value of $\lambda$. Hence find whether the lines are intersecting or not.
+\section*{SECTION-D}
+\item If ${A} = \mybit{1}{3}{4}{2}{1}{2}{5}{1}{1}$, find $A^{-1}$.
+        Hence solve the system of equations 
+            \begin{align*}
+                {x+3y+4z}=8 \\
+                {2x+y+2z}=5 \\
+            \text{and}\hspace{6pt} {5x+y+z} =7
+            \end{align*}
+\item Find the inverse of the following matrix, using elementary transformations :
+                \begin{align*}
+                {{A}} = \mybit{2}{0}{-1}{5}{1}{0}{0}{1}{3}
+                \end{align*}
+\item Show that the height of the cylinder of maximum volume that can be inscribed in a sphere of radius $R$ is $\frac{2R}{\sqrt{3}}$. Also find the maximum volume.
+\item Using method of integration, find the area of the triangle whose vertices are $\brak{1,0}$,$\brak{2,2}$ and $\brak{3,1}$.
+\item Using method of integration, find the area of the region enclosed between two circles ${x^2+y^2=4} and \brak{x-2}^2+{y^2}=4$.
+
+\item Find the vector and cartesian equations of the plane passing through the points having position vectors $\hat{i}+\hat{j}-2\hat{k}, 2\hat{i}-\hat{j}+\hat{k} and \hat{i}+2\hat{j}+\hat{k}$. Write the equation of a plane passing through a point (2, 3, 7) and parallel to the plane obtained above. Hence, find the distance between the two parallel planes.    
+ 
+
+\item Find the equation of the line passing through (2,-1, 2) and (5, 3, 4) and of the plane passing through 
+(2, 0, 3),(1, 1, 5) and (3, 2, 4). 
+Also, find their point of intersection.
+\item There are three coins. One is a two-headed coin, another is a biased coin that comes up heads $75\%$ of the time and the third is an unbiased coin. One of the three coins is chosen at random and tossed. If it shows heads, what is the probability that it is the two-headed coin ?
+\item A company produces two types of goods, $A$ and $B$, that require gold and silver. Each unit of type $A$ requires $3$ g of silver and $1$ g of gold while that of type $B$ requires $1$ g of silver and $2$ g of gold. The company can use at the most $9$ g of silver and $8$ g of gold. If each unit of type $A$ brings a profit of \rupee $40$ and that of type $B$ \rupee $50$, find the number of units of each type that the company should produce to maximize profit. Formulate the above LPP and solve it graphically and also find the maximum profit.
+
+\end{enumerate}
+\end{document}
+
+%This Document is made by Manjunath Kolavennu
